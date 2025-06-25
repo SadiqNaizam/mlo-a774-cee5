@@ -27,6 +27,24 @@ const quizQuestions = [
     answers: ["The Beach Getaway", "Mountain Adventure", "City Exploration '22", "The Spontaneous Roadtrip"],
     correctAnswer: "Mountain Adventure",
   },
+  {
+    id: 4,
+    question: "What's the most ridiculous thing we've argued about (and then laughed at 5 minutes later)?",
+    answers: ["The 'correct' way to load the dishwasher", "Which way the toilet paper should hang", "Who ate the last cookie", "All of the above, probably"],
+    correctAnswer: "All of the above, probably",
+  },
+  {
+    id: 5,
+    question: "What's our secret code word for when we need to escape a boring party?",
+    answers: ["'Did we feed the cat?'", "'I think I left the oven on.'", "'Pineapple.'", "'Let's go get tacos.'"],
+    correctAnswer: "'Pineapple.'",
+  },
+  {
+    id: 6,
+    question: "Which of my outfits is your secret favorite?",
+    answers: ["That one gray sweatshirt I always steal", "The fancy dress from that wedding", "My 'super-focused-on-work' pajamas", "That one t-shirt that's technically too old to wear"],
+    correctAnswer: "That one gray sweatshirt I always steal",
+  },
 ];
 
 const InteractiveQuiz: React.FC = () => {
